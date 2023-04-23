@@ -20,7 +20,7 @@ Você também precisa de credenciais para acessar a API do Spotify e sua conta n
 2. Instale as dependências necessárias:
 
 ```shell
-pip install boto3 spotipy
+pip install boto3 spotipy aws-shell
 ```
 
 3. Tutorial de como configurar e usar o [AWS CLI](https://www.youtube.com/watch?v=yl6G_wRmubs&ab_channel=PrimusLearning)
