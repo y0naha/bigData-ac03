@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Spotify to DynamoDB
 
 Este script foi criado para receber informações das últimas músicas salvas na biblioteca do usuário do Spotify e armazenar essas informações em uma tabela DynamoDB na AWS.
@@ -33,7 +32,3 @@ python3 insert_products_dynamo.py
 ```shell
 python3 insert_music_dynamo.py
 ```
-
-=======
-
->>>>>>> f1b6df0a71343c656e386df5b390382487604791
