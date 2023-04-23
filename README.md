@@ -1,16 +1,27 @@
-# dev4BigData
+# Spotify to DynamoDB
 
-## Este projeto faz inserções em uma tabela do DynamoDB usando Python
+Este script foi criado para receber informações das últimas músicas salvas na biblioteca do usuário do Spotify e armazenar essas informações em uma tabela DynamoDB na AWS.
 
-AC3 - Desenvolvimento para Big Data
+## Pré-requisitos
 
-## Link para documentação de como criar app no Spotify para ter as credenciais
+Antes de usar este script, é necessário ter as seguintes ferramentas:
 
-https://developer.spotify.com/documentation/web-api
+- [Python](https://www.python.org/downloads/) (versão 3.x)
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+- [Spotipy](https://spotipy.readthedocs.io/en/2.19.0/)
+- [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-configure.html)
 
-## IMPORTANTE! Para utilizar a lib Boto3, você preferencialmente deve ter o aws-cli instalado e configurado com as credenciais da sua conta.
+Você também precisa de credenciais para acessar a API do Spotify e sua conta na AWS.
 
-https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-configure.html
+## Instalação
+
+1. Clone o repositório em sua máquina local
+
+2. Instale as dependências necessárias:
+
+```shell
+pip install boto3 spotipy
+```
 
 ## Para rodar os scripts
 
@@ -21,3 +32,4 @@ python3 insert_products_dynamo.py
 ```shell
 python3 insert_music_dynamo.py
 ```
+
