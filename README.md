@@ -1,4 +1,4 @@
-# Spotify to DynamoDB
+# AC03 - BigData DynamoDB
 
 Este script foi criado para receber informações das últimas músicas salvas na biblioteca do usuário do Spotify e armazenar essas informações em uma tabela DynamoDB na AWS.
 
