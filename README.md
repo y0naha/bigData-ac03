@@ -9,7 +9,7 @@ Antes de usar este script, é necessário ter as seguintes ferramentas:
 - [Python](https://www.python.org/downloads/) (versão 3.x)
 - [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 - [Spotipy](https://spotipy.readthedocs.io/en/2.19.0/)
-- [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-configure.html)
+- [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-configure.html) (Opcional caso for realizado a instalação do `aws-shell`)
 
 Você também precisa de credenciais para acessar a API do Spotify e sua conta na AWS.
 
@@ -23,7 +23,7 @@ Você também precisa de credenciais para acessar a API do Spotify e sua conta n
 pip install boto3 spotipy aws-shell
 ```
 
-3. Tutorial de como configurar e usar o [AWS CLI](https://www.youtube.com/watch?v=yl6G_wRmubs&ab_channel=PrimusLearning)
+3. Tutorial de como configurar e usar o [AWS CLI](https://www.youtube.com/watch?v=yl6G_wRmubs&ab_channel=PrimusLearning) (Opcional caso for realizado a instalação do `aws-shell`)
 
 4. Utilizando o aws-shell realize o comando:
 
