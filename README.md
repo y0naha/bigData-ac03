@@ -25,6 +25,24 @@ pip install boto3 spotipy aws-shell
 
 3. Tutorial de como configurar e usar o [AWS CLI](https://www.youtube.com/watch?v=yl6G_wRmubs&ab_channel=PrimusLearning)
 
+4. Utilizando o aws-shell realize o comando:
+
+```shell
+aws-shell
+```
+
+5. O aws-shell usa as mesmas definições de configuração da AWS CLI. Se você nunca usou a AWS CLI antes, a maneira mais fácil de começar é executar o comando `configure`:
+
+```shell
+$ aws-shell
+aws> configure
+AWS Access Key ID [None]: your-access-key-id
+AWS Secret Access Key [None]: your-secret-access-key
+Default region name [None]: region-to-use (e.g us-west-2, us-west-1, etc).
+Default output format [None]:
+aws>
+```
+
 ## Para rodar os scripts
 
 ```shell
@@ -34,3 +52,9 @@ python3 insert_products_dynamo.py
 ```shell
 python3 insert_music_dynamo.py
 ```
+## Para rodar os scripts via Replit
+
+1. Acesse o site: https://replit.com/
+2. Cria sua conta
+3. Importe este repositório
+4. Siga este readme a partir da instalação das dependências
