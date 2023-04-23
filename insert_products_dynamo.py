@@ -120,8 +120,8 @@ purchases = [
 '''
 {
     'tipo_produto': 'Itens Marketplace', 
-    'nome_produto': 'Fone de Ouvido Sony WH-1000XM4', 
-    'preco': 'R$7.73', 'data_hora': '21/04 - 11:44:30', 
+    'nome_produto': 'Mochila de viagem de couro', 
+    'preco': 'R$95.73', 'data_hora': '23/04 - 19:10:30', 
     'ano': '2023', 
     'forma_pagamento': 'pix'}
 '''
