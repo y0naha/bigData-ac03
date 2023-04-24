@@ -9,7 +9,7 @@ Antes de usar este script, é necessário ter as seguintes ferramentas:
 - [Python](https://www.python.org/downloads/) (versão 3.x)
 - [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 - [Spotipy](https://spotipy.readthedocs.io/en/2.19.0/)
-- [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-configure.html) (Opcional caso for realizado a instalação do `aws-shell`)
+- [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-configure.html)
 
 Você também precisa de credenciais para acessar a API do Spotify e sua conta na AWS.
 
@@ -20,12 +20,12 @@ Você também precisa de credenciais para acessar a API do Spotify e sua conta n
 2. Instale as dependências necessárias:
 
 ```shell
-pip install boto3 spotipy aws-shell
+pip install boto3 spotipy dotenv
 ```
 
-3. Tutorial de como configurar e usar o [AWS CLI](https://www.youtube.com/watch?v=yl6G_wRmubs&ab_channel=PrimusLearning) (Opcional caso for realizado a instalação do `aws-shell`)
+3. Tutorial de como configurar e usar o [AWS CLI](https://www.youtube.com/watch?v=yl6G_wRmubs&ab_channel=PrimusLearning)
 
-4. Utilizando o [aws-shell](https://pypi.org/project/aws-shell/) realize o comando:
+<!-- 4. Utilizando o [aws-shell](https://pypi.org/project/aws-shell/) realize o comando:
 
 ```shell
 aws-shell
@@ -58,13 +58,13 @@ sudo aws-shell
 
 6. Dê o comando `Yes` e prossiga com o passo 5 da instação
 
-7. Para as credenciais do `.env` use o recurso `Secrets` do [Replit](https://docs.replit.com/programming-ide/workspace-features/storing-sensitive-information-environment-variables)
+7. Para as credenciais do `.env` use o recurso `Secrets` do [Replit](https://docs.replit.com/programming-ide/workspace-features/storing-sensitive-information-environment-variables) -->
 ## Para rodar os scripts
 
 ```shell
-python3 insert_products_dynamo.py
+python insert_products_dynamo.py
 ```
 
 ```shell
-python3 insert_music_dynamo.py
+python insert_music_dynamo.py
 ```
