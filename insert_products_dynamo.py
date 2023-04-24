@@ -30,7 +30,17 @@ produtos = [
     "Cafeteira italiana Bialetti",
     "Tênis de basquete Adidas",
     "Teclado mecânico RGB Corsair",
-    "Impressora multifuncional HP"
+    "Impressora multifuncional HP",
+    "Bicicleta de montanha Scott",
+    "Óculos de sol Ray-Ban",
+    "Smartwatch Samsung Galaxy",
+    "Caixa de som portátil JBL",
+    "Tablet Apple iPad",
+    "Fogão a gás Brastemp",
+    "Carrinho de bebê Graco",
+    "Cadeira de escritório ergonômica",
+    "Máquina de lavar roupas Electrolux",
+    "Geladeira side-by-side LG"
 ]
 
 purchases = [
