@@ -42,16 +42,6 @@ Default region name [None]: region-to-use (e.g us-west-2, us-west-1, etc).
 Default output format [None]:
 aws>
 ```
-
-## Para rodar os scripts
-
-```shell
-python3 insert_products_dynamo.py
-```
-
-```shell
-python3 insert_music_dynamo.py
-```
 ## Para rodar os scripts via Replit
 
 1. Acesse o site: https://replit.com/
@@ -64,4 +54,16 @@ python3 insert_music_dynamo.py
 ls -la /home/runner/bigData-ac03/venv/bin/aws
 chmod +x /home/runner/bigData-ac03/venv/bin/aws
 sudo aws-shell
+```
+
+6. Dê o comando `Yes` e prossiga com o passo 5 da instação
+
+## Para rodar os scripts
+
+```shell
+python3 insert_products_dynamo.py
+```
+
+```shell
+python3 insert_music_dynamo.py
 ```
