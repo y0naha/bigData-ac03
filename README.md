@@ -58,6 +58,7 @@ sudo aws-shell
 
 6. Dê o comando `Yes` e prossiga com o passo 5 da instação
 
+7. Para as credenciais do `.env` use o recurso `Secrets` do [Replit](https://docs.replit.com/programming-ide/workspace-features/storing-sensitive-information-environment-variables)
 ## Para rodar os scripts
 
 ```shell
@@ -67,5 +68,3 @@ python3 insert_products_dynamo.py
 ```shell
 python3 insert_music_dynamo.py
 ```
-
-7. Para as credenciais do `.env` use o recurso `Secrets` do [Replit](https://docs.replit.com/programming-ide/workspace-features/storing-sensitive-information-environment-variables)
