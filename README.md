@@ -58,3 +58,10 @@ python3 insert_music_dynamo.py
 2. Cria sua conta
 3. Importe este repositório
 4. Siga este readme a partir da instalação das dependências
+5. Caso ser der erro durante o processo do `configure` do `aws-shell`,saia do console da aws (aws> ) utilizando o comando `F10`, e digite os comandos:
+
+```shell
+ls -la /home/runner/bigData-ac03/venv/bin/aws
+chmod +x /home/runner/bigData-ac03/venv/bin/aws
+sudo aws-shell
+```
