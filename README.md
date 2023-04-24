@@ -25,7 +25,7 @@ pip install boto3 spotipy aws-shell
 
 3. Tutorial de como configurar e usar o [AWS CLI](https://www.youtube.com/watch?v=yl6G_wRmubs&ab_channel=PrimusLearning) (Opcional caso for realizado a instalação do `aws-shell`)
 
-4. Utilizando o aws-shell realize o comando:
+4. Utilizando o [aws-shell](https://pypi.org/project/aws-shell/) realize o comando:
 
 ```shell
 aws-shell
